@@ -12,6 +12,7 @@ call activate.bat
 cd /d "%~dp0"
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install git+https://github.com/m-bain/whisperx.git
+pip install faster_whisper
 pip install -r requirements.txt
 
 if errorlevel 1 (
