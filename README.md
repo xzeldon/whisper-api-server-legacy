@@ -1,5 +1,7 @@
 # whisper-api-server
 
+### ⚠️ Take a look at the new version of Whisper API Server rewritten in Go! You can find it at [here](https://github.com/xzeldon/whisper-api-server). This updated version eliminates the need for approximately 6GB of Python runtime dependencies.
+
 API server that makes transcription with the OpenAI Whisper models.
 
 ```curl
